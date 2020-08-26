@@ -1,0 +1,33 @@
+.head-page {
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+.stack {
+    background-color: rgba(8, 6, 6, 0.527);
+    background-size: cover;
+}
+.jumbotron {
+    padding:0px;
+}
+img { 
+    width: 100%;
+}
+video {
+    margin:auto;
+}
+.footer1 {
+    background-color: #233249;
+    font-size: 12px;
+}
+.footer2 {
+    background-color: #1D2A3D;
+    height: 60px;
+}
+.footer1 .row {
+    margin: auto;
+}
+@media screen and (max-width:500px) {
+    .footer2 ul li {
+        margin-right: 5%;
+    }
+}
