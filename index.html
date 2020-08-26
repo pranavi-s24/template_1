@@ -3,91 +3,115 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&amp;family=Italianno&amp;family=Niconne&amp;display=swap" rel="stylesheet">
+        <link rel="icon" href="images/s.png" type="image/x-icon">
         <link rel="stylesheet" href="styyle.css">
     </head>
     <body>
-        <div class="container-fluid pb-5 bg-dark">
-            <div class="row text-white justify-content-center pt-4 align-self-end">
-                <h3 class="offset-md-0.5 pr-5">stack</h3>
-                <p class="p-1 col-md-1 text-white-50">HOME</p>
-                <p class="p-1 col-md-1 text-white-50">PAGES</p>
-                <p class="p-1 col-md-1 text-white-50">BLOG</p>
-                <p class="p-1 col-md-1 text-white-50">SHOP</p>
-                <p class="p-1 col-md-1 text-white-50">PORTFOLIO</p>
-                <p class="p-1 col-md-1 text-white-50">BLOCKS</p>
-                <p class="p-1 col-md-1 text-white-50">ELEMENTS</p>
-                <button type="button" class="mt-1 py-1 btn-sm bg-transparent text-white border">Try Builder</button>
-                <button type="button" class="mt-1 py-1 btn-sm btn-primary">Buy Now</button>
+        <header id="page-header m-5">
+            <div class="jumbotron head-page text-white">
+                <div class="stack">
+                    <div class="container">
+
+                        <nav class="navbar navbar-expand-lg">
+
+                            <span class="navbar-text"><b>stack</b></span>
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navid_1">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navid_1">
+                                <ul class="navbar-nav align-baseline">
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">HOME</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">PAGES</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">BLOG</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">SHOP</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">PORTFOLIO</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">BLOCKS</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">ELEMENTS</a></li>
+                                    <li class="nav-item"><button type="button" href="#" class="btn border-white text-white">Try Builder</button></li>
+                                    <li class="nav-item"><button type="button" href="#" class="btn btn-primary text-white">BUY NOW</button></li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                        <div class="row py-5">
+                            <div class="col-md-10 col-lg-6 pb-5">
+                                <div class="container pb-5 mb-5">
+                                    <video class="video" width="380">
+                                        <source src="v1.mp4" type="video/mp4">
+                                    </video> 
+                                    <div class="play/pause"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-lg-6 text-white pb-5">
+                                <div class="container pb-5 mb-5">
+                                    <h2>Streamline your workflow with stack</h2>
+                                    <p>Build lean, beautiful websites with a clean and contemporary look to suit a range of purposes.</p>
+                                    <button type="button" class="btn btn-primary">View the Demos</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-5">
-                <div class="col-md-4 offset-md-2">
-                    <img src="./light.jpeg">
-                </div>
-                <div class="col-md-4 text-white">
-                    <h2>Streamline your workflow with stack</h2>
-                    <p>Build lean, beautiful websites with a clean and contemporary look to suit a range of purposes.</p>
-                    <button type="button" class="btn btn-primary">View the Demos</button>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div class="container">
-            <div class="container justify-content-center border pt-5">
+        </header>
+
+            <div class="container border pt-5 pr-5 mb-5">
                 <div class="form-group row">
-                    <p class="col-md-3">First Name</p>
-                    <input type="text" class="col-md-8 form-control bg-light" placeholder="Enter Your First Name">
+                    <label class="col-sm-3 col-form-label">First Name</label>
+                    <input type="text" class="col-sm-9 form-control bg-light" placeholder="Enter Your First Name">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Last Name</p>
-                    <input type="text" class="col-md-8 form-control bg-light" placeholder="Enter Your Last Name">
+                    <label class="col-sm-3">Last Name</label>
+                    <input type="text" class="col-sm-9 form-control bg-light" placeholder="Enter Your Last Name">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Email</p>
-                    <input type="email" class="col-md-8 form-control bg-light" placeholder="Enter Your Email Address">
+                    <label class="col-sm-3">Email</label>
+                    <input type="email" class="col-sm-9 form-control bg-light" placeholder="Enter Your Email Address">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Phone</p>
-                    <input type="text" class="col-md-8 form-control bg-light" placeholder="Enter Your Phone Number">
+                    <label class="col-sm-3">Phone</label>
+                    <input type="text" class="col-sm-9 form-control bg-light" placeholder="Enter Your Phone Number">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Gender</p>
+                    <label class="col-sm-3">Gender</label>
                     <input type="radio" class="mx-3">Male<span class="mx-5"> </span>
                     <input type="radio" class="mx-3">Female
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">User Name</p>
-                    <input type="text" class="col-md-8 form-control bg-light" placeholder="Enter Your User Name">
+                    <label class="col-sm-3">User Name</label>
+                    <input type="text" class="col-sm-9 form-control bg-light" placeholder="Enter Your User Name">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Password</p>
-                    <input type="text" class="col-md-8 form-control bg-light" placeholder="Enter Your Password">
+                    <label class="col-sm-3">Password</label>
+                    <input type="text" class="col-sm-9 form-control bg-light" placeholder="Enter Your Password">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Confirm Password</p>
-                    <input type="text" class="col-md-8 form-control bg-light" placeholder="Enter Your Password again">
+                    <label class="col-sm-3">Confirm Password</label>
+                    <input type="text" class="col-sm-9 form-control bg-light" placeholder="Enter Your Password again">
                 </div>
                 <div class="form-group row">
-                    <p class="col-md-3">Captcha</p>
-                    <input type="text" class="col-md-3 form-control bg-light" placeholder="Enter Code">
-                    <input type="text" class="col-md-3">
+                    <label class="col-sm-3">Captcha</label>
+                    <input type="text" class="col-sm-3 form-control bg-light" placeholder="Enter Code">
+                    <input type="text" class="col-sm-3">
                     <span class="glyphicon glyphicon-refresh col-md-1"></span>
                 </div>
                 <div class="form-group row">
-                    <p class="offset-md-3">
+                    <label class="offset-sm-3">
                         <button type="submit" class="btn btn-primary">Submit</button>
                         <button type="reset" class="btn btn-primary">Reset</button>
                     </p>
                 </div>
             </div>
-        </div><br>
 
-        <div class="container-fluid bg-dark text-white font-weight-light py-5">
-            <div class="row font-12">
-                <div class="col-md-3 offset-md-1">
+        <div class="footer1 text-white font-weight-light p-5 mt-4">
+            <div class="container row d-flex">
+                <div class="col-lg-3 col-md-6">
                     <h4>About Site</h4>
                     <p class="text-white-50">We're reimahining how you buy, sell and rent. It's now easier to get into a place you love. So let's do this, together.</p>
                 </div>
-                <div class="col-md-2 flex-column">
+                <div class="col-lg-3 col-md-6">
                     <h4>Quick Links</h4>
                     <p class="text-white-50">About Us</p>
                     <p class="text-white-50">Terms & Conditions</p>
@@ -95,7 +119,7 @@
                     <p class="text-white-50">Support Center</p>
                     <p class="text-white-50">Press Info</p>
                 </div>
-                <div class="col-md-2 flex-column">
+                <div class="col-lg-3 col-md-6 mr-0">
                     <h4>Contact Us</h4>
                     <p class="text-white-50">info@findhouse.com</p>
                     <p class="text-white-50">Collins Street West, Victoria</p>
@@ -103,7 +127,7 @@
                     <p class="text-white-50">+1 246-345-0699</p>
                     <p class="text-white-50">+1 246-345-0695</p>
                 </div>
-                <div class="col-md-3 socialbtns">
+                <div class="col-lg-3 col-md-6 mr-0 socialbtns">
                     <h4>Follow Us</h4>
                     <ul class="list-unstyled row m-0">
                         <li class="p-2"><a href="#" class="fa fa-lg fa-facebook"></a></li>
@@ -114,19 +138,21 @@
                         <li class="p-2"><a href="#" class="fa fa-lg fa-google"></a></li>
                     </ul>
                     <h4>Subscribe</h4>
-                    <input type="email" class="bg-transparent form-control" placeholder="Enter Your Email">
+                    <input type="email" class="bg-transparent form-control text-white" placeholder="Enter Your Email">
                 </div>
             </div>
-            <hr class="dropdowm-divider text-black">
-            <div class="row text-white">
-                <p class="text-white-50 offset-md-1 col-md-1">HOME</p>
-                <p class="text-white-50 col-md-1">Listing</p>
-                <p class="text-white-50 col-md-1">Property</p>
-                <p class="text-white-50 col-md-1">Pages </p>               
-                <p class="text-white-50 col-md-1">Blog</p>             
-                <p class="text-white-50 col-md-1">Contact</p>                
-                <p class="text-white-50 offset-md-1">2020 Find Houses made with Love</p>
-            </div>
         </div>
+        <footer class="footer2">
+            <div class="container">
+                <ul class="list-unstyled d-flex p-4">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">LISTING</a></li>
+                    <li><a href="#">PROPERTY</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
