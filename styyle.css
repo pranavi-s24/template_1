@@ -33,6 +33,6 @@ video {
 }
 @media screen and (max-width:500px) {
     .footer2 ul li {
-        margin-right: 0.5%;
+        padding: 0.5%;
     }
 }
