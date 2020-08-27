@@ -28,8 +28,11 @@ video {
 .footer1 .row {
     margin: auto;
 }
+ .footer2 ul li {
+        margin-right: 5%;
+}
 @media screen and (max-width:500px) {
     .footer2 ul li {
-        margin-right: 5%;
+        margin-right: 2%;
     }
 }
